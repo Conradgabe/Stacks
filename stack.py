@@ -40,17 +40,3 @@ class StackTop0:
     def display_all_items(self):
         return [str(i) for i in self.items]
 
-f = StackTopn()
-
-f.push('FIRST')
-f.push('SECOND')
-f.push('THIRD')
-f.push('FOURTH')
-
-print(f.pop())
-
-print(f.display_all_items())
-
-print(f.length())
-print(f.peek())
-print(f.isEmpty())
